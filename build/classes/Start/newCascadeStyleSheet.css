@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2023, 2:42:08 PM
+    Author     : albat
+*/
+
+
+.start-button{
+    -fx-shape: "M 308 264 Q 242 264 242 209 Q 242 154 308 154 Q 363 154 418 154 Q 473 154 528 154 Q 583 154 583 209 Q 583 264 528 264 Q 473 264 418 264 Z";
+    -fx-background-color:#cadfe4;
+    -fx-font-color: #402626;
+    
+}
+
+.startshadow-button{
+    -fx-shape: "M 308 264 Q 242 264 242 209 Q 242 154 308 154 Q 363 154 418 154 Q 473 154 528 154 Q 583 154 583 209 Q 583 264 528 264 Q 473 264 418 264 Z";
+    -fx-background-color:#402626;
+    -fx-font-color: #402626;
+}
+
+.signup-button{
+    -fx-shape: "M 308 264 Q 242 264 242 209 Q 242 154 308 154 Q 363 154 418 154 Q 473 154 528 154 Q 583 154 583 209 Q 583 264 528 264 Q 473 264 418 264 Z";
+    -fx-background-color:#d4b2e4;
+    -fx-font-color: #402626;
+}
+.done-button{
+    -fx-shape: "M 308 264 Q 242 264 242 209 Q 242 154 308 154 Q 363 154 418 154 Q 473 154 528 154 Q 583 154 583 209 Q 583 264 528 264 Q 473 264 418 264 Z";
+    -fx-background-color:#a359a0;
+}
+.transparent{
+    -fx-background-color: rgba(1, 1, 1 , 0.0 );
+}
+
+.FindAndFill{
+    -fx-shape: "M 308 264 Q 242 264 242 209 Q 242 154 308 154 Q 363 154 418 154 Q 473 154 528 154 Q 583 154 583 209 Q 583 264 528 264 Q 473 264 418 264 Z";
+    -fx-background-color:#F4A87D;
+    -fx-font-color: #000000;
+}
+
+.choose-box{
+    -fx-shape: "M 308 264 Q 242 264 242 209 Q 242 154 308 154 Q 363 154 418 154 Q 473 154 528 154 Q 583 154 583 209 Q 583 264 528 264 Q 473 264 418 264 Z";
+    -fx-background-color:#F4A87D;
+    -fx-font-family: "Cascadia Mono Regular";
+    -fx-font-size: 14;
+}

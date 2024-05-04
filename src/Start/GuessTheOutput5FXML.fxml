@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="770.0" prefWidth="1369.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.GuessTheOutputFXMLController">
+   <children>
+      <ImageView fitHeight="770.0" fitWidth="1369.0" onKeyPressed="#nextKey">
+         <image>
+            <Image url="@../images/scene5.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tS5" layoutX="595.0" layoutY="586.0" prefHeight="101.0" prefWidth="441.0" promptText="Write Your Answer Here" style="-fx-border-color: #000000; -fx-border-radius: 22; -fx-background-radius: 22; -fx-background-color: #FFFFFF;">
+         <font>
+            <Font name="Gadugi Bold" size="25.0" />
+         </font></TextField>
+      <Button fx:id="checkS5" layoutX="947.0" layoutY="604.0" mnemonicParsing="false" onAction="#buttonEventS5" onMouseEntered="#onMouseEnteredS5" onMouseExited="#onMouseExitedS5" prefHeight="66.0" prefWidth="59.0" style="-fx-background-radius: 20; -fx-background-color: white;">
+         <graphic>
+            <ImageView fx:id="imgS5" fitHeight="58.0" fitWidth="60.0" onDragEntered="#onMouseEnteredS5" onDragExited="#onMouseExitedS5" onMouseEntered="#onMouseEnteredS5" onMouseExited="#onMouseExitedS5">
+               <image>
+                  <Image url="@../images/picpng.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="backS5" layoutX="155.0" layoutY="299.0" mnemonicParsing="false" onAction="#scene4S5" onMouseEntered="#onMouseEntered3S5" onMouseExited="#onMouseExited3S5" prefHeight="73.0" prefWidth="143.0" style="-fx-background-radius: 35; -fx-border-color: black; -fx-border-radius: 35; -fx-background-color: #F99AAF;">
+         <graphic>
+            <ImageView fx:id="backArrowS5" fitHeight="59.0" fitWidth="76.0" onMouseEntered="#onMouseEntered3S5" onMouseExited="#onMouseExited3S5">
+               <image>
+                  <Image url="@../images/backarrowb.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <ImageView fx:id="winS5" fitHeight="339.0" fitWidth="658.0" layoutX="356.0" layoutY="203.0" onKeyPressed="#nextKey" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/win_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nS5" fitHeight="72.0" fitWidth="95.0" layoutX="1250.0" layoutY="687.0" onKeyPressed="#nextKey" onMouseClicked="#goNextStage" onMouseEntered="#nextEntered" onMouseExited="#nextExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bS5" fitHeight="72.0" fitWidth="95.0" layoutX="24.0" layoutY="687.0" onMouseClicked="#goBackS1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bAr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hintS5" fitHeight="73.0" fitWidth="63.0" layoutX="941.0" layoutY="465.0" onMouseEntered="#showHintS5" onMouseExited="#dontShowHintS5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/hint.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hintMsgS5" fitHeight="199.0" fitWidth="218.0" layoutX="946.0" layoutY="537.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/hintMsg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ballonS5" fitHeight="83.0" fitWidth="35.0" layoutX="37.0" layoutY="24.0" onMouseClicked="#clickBallon" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ballon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1235.0" layoutY="620.0" mnemonicParsing="false" onKeyPressed="#nextKey" opacity="0.0" prefHeight="66.0" prefWidth="123.0" text="Button" />
+   </children>
+</AnchorPane>

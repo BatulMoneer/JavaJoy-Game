@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="770.0" prefWidth="1369.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.WhichIsTrueFXMLController">
+   <children>
+      <ImageView fitHeight="772.0" fitWidth="1367.0" layoutX="2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../myImage/truegoandback.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="71.0" layoutY="628.0" mnemonicParsing="false" onAction="#befor5" opacity="0.0" prefHeight="85.0" prefWidth="126.0" text="Button" />
+      <Button layoutX="1193.0" layoutY="631.0" mnemonicParsing="false" onAction="#laststage5" onKeyPressed="#nextKey" opacity="0.0" prefHeight="86.0" prefWidth="127.0" text="Button" />
+      <ImageView fx:id="win" fitHeight="339.0" fitWidth="658.0" layoutX="395.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Win.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="palon2" fitHeight="154.0" fitWidth="102.0" layoutX="1259.0" layoutY="2.0" onMouseClicked="#clickLoon" onMouseEntered="#loonEn" onMouseExited="#loonEx" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../myImage/palon2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

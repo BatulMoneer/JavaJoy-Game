@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="770.0" prefWidth="1369.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.FindAndFillFXMLController">
+   <children>
+      <ImageView fitHeight="770.0" fitWidth="1369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/FindAndFillBase.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd0ab" height="718.0" layoutX="60.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="516.0" />
+      <ImageView fitHeight="699.0" fitWidth="504.0" layoutX="71.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/FindAndFillLevelOne.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="467.0" layoutY="211.0" mnemonicParsing="false" onAction="#findAndFillLevelOneIntClicked" rotate="-20.0" styleClass="transparent" stylesheets="@newCascadeStyleSheet.css" text="int" textFill="WHITE" />
+      <Button fx:id="findAndFillIntButt" layoutX="848.0" layoutY="36.0" mnemonicParsing="false" onAction="#findAndFillLevelOneIntButtClicked" prefHeight="77.0" prefWidth="126.0" styleClass="FindAndFill" stylesheets="@newCascadeStyleSheet.css" text="int" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="findAndFillIntCircle" fitHeight="97.0" fitWidth="84.0" layoutX="440.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/Circle.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="320.0" layoutY="128.0" mnemonicParsing="false" onAction="#findAndFillLevelOneStringClicked" prefHeight="26.0" prefWidth="61.0" rotate="-5.0" styleClass="transparent" stylesheets="@newCascadeStyleSheet.css" text="String" textFill="WHITE" />
+      <Button fx:id="findAndFillStringButt" layoutX="974.0" layoutY="119.0" mnemonicParsing="false" onAction="#findAndFillLevelOneStringButtClicked" prefHeight="77.0" prefWidth="126.0" styleClass="FindAndFill" stylesheets="@newCascadeStyleSheet.css" text="String" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="findAndFillStringCircle" fitHeight="97.0" fitWidth="84.0" layoutX="309.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/Circle.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="457.0" layoutY="422.0" mnemonicParsing="false" onAction="#findAndFillLevelOneStringArrClicked" prefHeight="0.0" prefWidth="50.0" rotate="27.0" styleClass="transparent" stylesheets="@newCascadeStyleSheet.css" text="String[ ]" textFill="WHITE">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="findAndFillStringArrButt" layoutX="1100.0" layoutY="41.0" mnemonicParsing="false" onAction="#findAndFillLevelOneStringArrButtClicked" prefHeight="78.0" prefWidth="126.0" styleClass="FindAndFill" stylesheets="@newCascadeStyleSheet.css" text="String[]" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="findAndFillStringArrCircle" fitHeight="97.0" fitWidth="84.0" layoutX="440.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/Circle.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="69.0" layoutY="654.0" mnemonicParsing="false" onAction="#findAndFillLevelOneDoubleClicked" prefHeight="24.0" prefWidth="62.0" rotate="-45.0" styleClass="transparent" stylesheets="@newCascadeStyleSheet.css" text="double" textFill="#7e7171">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="findAndFillDoubleButt" layoutX="1226.0" layoutY="118.0" mnemonicParsing="false" onAction="#findAndFillLevelOneDoubleButtClicked" prefHeight="78.0" prefWidth="126.0" styleClass="FindAndFill" stylesheets="@newCascadeStyleSheet.css" text="double" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="findAndFillDoubleCircle" fitHeight="97.0" fitWidth="84.0" layoutX="58.0" layoutY="624.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/Circle.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="FindAndFillLevelOneStringCombobox" layoutX="672.0" layoutY="411.0" onAction="#FindAndFillLevelOneStringComboboxChoose" prefHeight="41.0" prefWidth="118.0" styleClass="choose-box" stylesheets="@newCascadeStyleSheet.css" visible="false" visibleRowCount="4" />
+      <ComboBox fx:id="FindAndFillLevelOneIntCombobox" layoutX="672.0" layoutY="485.0" onAction="#FindAndFillLevelOneIntComboboxChoose" prefHeight="41.0" prefWidth="118.0" styleClass="choose-box" stylesheets="@newCascadeStyleSheet.css" visible="false" visibleRowCount="4" />
+      <ComboBox fx:id="FindAndFillLevelOneDoubleCombobox" layoutX="672.0" layoutY="563.0" onAction="#FindAndFillLevelOneDoubleComboboxChoose" prefHeight="41.0" prefWidth="118.0" styleClass="choose-box" stylesheets="@newCascadeStyleSheet.css" visible="false" visibleRowCount="4" />
+      <ComboBox fx:id="FindAndFillLevelOneStringArrCombobox" layoutX="671.0" layoutY="640.0" onAction="#FindAndFillLevelOneStringArrComboboxChoose" prefHeight="42.0" prefWidth="118.0" styleClass="choose-box" stylesheets="@newCascadeStyleSheet.css" visible="false" visibleRowCount="4" />
+      <ImageView fx:id="goodJob" fitHeight="138.0" fitWidth="126.0" layoutX="1076.0" layoutY="474.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/GoodJob.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tryAgain" fitHeight="150.0" fitWidth="200.0" layoutX="1064.0" layoutY="462.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/TryAgain.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nextImage" fitHeight="78.0" fitWidth="164.0" layoutX="1214.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/Next.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="nextButt" disable="true" layoutX="1217.0" layoutY="649.0" mnemonicParsing="false" onAction="#nextPressed" onKeyPressed="#nextKey" onMouseEntered="#nextEntered" onMouseExited="#nextExited" opacity="0.0" prefHeight="67.0" prefWidth="95.0" text="Button" />
+      <ImageView fx:id="help" fitHeight="67.0" fitWidth="74.0" layoutX="1243.0" layoutY="378.0" onMouseEntered="#helpEntered" onMouseExited="#helpExited" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Help.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="helpIns" fitHeight="261.0" fitWidth="329.0" layoutX="991.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/HelpIns.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="win" fitHeight="339.0" fitWidth="658.0" layoutX="385.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../images/Win.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="loon" fitHeight="155.0" fitWidth="60.0" layoutX="1277.0" layoutY="9.0" onMouseClicked="#clickLoon" onMouseEntered="#loonEn" onMouseExited="#loonEx" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/loon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="770.0" prefWidth="1369.0" stylesheets="@newCascadeStyleSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.SignUpMenuFXMLController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="770.0" fitWidth="1369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SignupMenu.jpg" />
+         </image>
+      </ImageView>
+      
+      <Group fx:id="signupGroup" layoutX="250.0" layoutY="320.0" />
+      
+      <Group fx:id="signupWindowGroup" layoutX="493.0" layoutY="252.0">
+         <children>
+            <TextField fx:id="nameField" layoutX="200.0" layoutY="99.0" prefHeight="34.0" prefWidth="209.0" style="-fx-background-color: white; -fx-border-color: #402white626;" />
+            <TextField fx:id="usernameField" layoutX="200.0" layoutY="205.0" prefHeight="34.0" prefWidth="209.0" style="-fx-background-color: white; -fx-border-color: white;" />
+         </children>
+      </Group>
+      <Group fx:id="loginGroup" layoutX="220.0" layoutY="398.0" />
+      <Button fx:id="signupOk" layoutX="902.0" layoutY="555.0" mnemonicParsing="false" onAction="#donePressed" prefHeight="50.0" prefWidth="102.0" styleClass="done-button" text="Ok" textFill="WHITE">
+         <font>
+            <Font name="Cascadia Mono Regular" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="signupComment" layoutX="640.0" layoutY="560.0" prefHeight="34.0" prefWidth="252.0" text="All Fields Must Be Filled!" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="logInButt" layoutX="241.0" layoutY="446.0" mnemonicParsing="false" onAction="#logInButtClicked" opacity="0.0" prefHeight="50.0" prefWidth="209.0" text="Button" />
+      <Button fx:id="goHome" layoutX="22.0" layoutY="21.0" mnemonicParsing="false" onAction="#goHomeClicked" opacity="0.0" prefHeight="51.0" prefWidth="46.0" text="Button" />
+      <Label fx:id="name" layoutX="507.0" layoutY="28.0" prefHeight="28.0" prefWidth="314.0">
+         <font>
+            <Font name="Cascadia Mono Regular" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="494.0" layoutY="22.0" prefHeight="34.0" prefWidth="28.0" text="/">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="770.0" prefWidth="1369.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.FillTheBlank1FXMLController">
+   <children>
+      <ImageView fitHeight="770.0" fitWidth="1395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Pink%20Purple%20Pastel%20Cute%20Group%20Project%20Presentation%20(9).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="298.0" layoutX="445.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Pink%20Purple%20Pastel%20Cute%20Group%20Project%20Presentation%20(10).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="572.0" fitWidth="831.0" layoutX="164.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Pink%20Purple%20Pastel%20Cute%20Group%20Project%20Presentation%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="470.0" fitWidth="806.0" layoutX="171.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Code.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="81.0" fitWidth="174.0" layoutX="270.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FillBlankLa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="100.0" layoutX="240.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FillBlankLa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="49.0" layoutX="327.0" layoutY="502.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FillBlankSm.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="49.0" layoutX="216.0" layoutY="618.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FillBlankSm.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="opeButt" fitHeight="125.0" fitWidth="238.0" layoutX="1027.0" layoutY="281.0" onMouseEntered="#recEn2" onMouseExited="#recEx2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonBlueLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="elsButt" fitHeight="120.0" fitWidth="250.0" layoutX="1025.0" layoutY="162.0" onMouseEntered="#recEn1" onMouseExited="#recEx1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/ButtonBinkLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrcButt3" fitHeight="142.0" fitWidth="115.0" layoutX="1045.0" layoutY="608.0" onMouseEntered="#recEn6" onMouseExited="#recEx6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/ButtonBinkSmall.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="condButt" fitHeight="120.0" fitWidth="250.0" layoutX="1031.0" layoutY="393.0" onMouseEntered="#recEn3" onMouseExited="#recEx3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonGreenLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrcButt2" fitHeight="136.0" fitWidth="113.0" layoutX="1152.0" layoutY="509.0" onMouseEntered="#recEn5" onMouseExited="#recEx5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonGreenSmall.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="elsLab1" layoutX="1046.0" layoutY="175.0" onMouseClicked="#clicButt1" prefHeight="81.0" prefWidth="208.0" text="     else">
+         <font>
+            <Font name="Cascadia Mono Regular" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1200.0" layoutY="545.0" text=",">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="arccLab1" layoutX="1061.0" layoutY="644.0" onMouseClicked="#clickAr3" prefHeight="70.0" prefWidth="80.0" text="  }">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="1088.0" layoutY="322.0" text="operation">
+         <font>
+            <Font name="Cascadia Mono Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="condLab1" layoutX="1046.0" layoutY="412.0" onMouseClicked="#clickButt2" prefHeight="81.0" prefWidth="202.0" text="   condition">
+         <font>
+            <Font name="Cascadia Mono Regular" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="arrcButt4" fitHeight="120.0" fitWidth="117.0" layoutX="1151.0" layoutY="622.0" onMouseEntered="#recEn7" onMouseExited="#recEx7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonBlueSmall.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1201.0" layoutY="657.0" text=";">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="arrButt1" fitHeight="120.0" fitWidth="117.0" layoutX="1043.0" layoutY="517.0" onMouseEntered="#recEn4" onMouseExited="#recEx4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonBlueSmall.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="arcLab1" layoutX="1056.0" layoutY="530.0" onMouseClicked="#clickAr1" prefHeight="81.0" prefWidth="87.0" text="  {">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="arrow1" fitHeight="155.0" fitWidth="60.0" layoutX="1295.0" layoutY="14.0" onMouseClicked="#clickArrow1" onMouseEntered="#recEnArr1" onMouseExited="#recExArr1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/balon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrow2" fitHeight="72.0" fitWidth="95.0" layoutX="1261.0" layoutY="687.0" onMouseClicked="#clickArrow2" onMouseEntered="#recEnArr2" onMouseExited="#recExArr2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lampButt" fitHeight="81.0" fitWidth="64.0" layoutX="880.0" layoutY="289.0" onMouseEntered="#recEnLam" onMouseExited="#recExLam" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/lamp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="condButt1" fitHeight="87.0" fitWidth="180.0" layoutX="267.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/BottonGreenLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="elsButt1" fitHeight="47.0" fitWidth="117.0" layoutX="234.0" layoutY="501.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/ButtonBinkLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrBut1" fitHeight="57.0" fitWidth="49.0" layoutX="328.0" layoutY="502.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/BottonBlueSmall.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrcBut3" fitHeight="72.0" fitWidth="49.0" layoutX="216.0" layoutY="610.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/ButtonBinkSmall.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="elsLab2" layoutX="249.0" layoutY="499.0" onMouseClicked="#clicButt1" prefHeight="47.0" prefWidth="80.0" text=" else" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="condLab2" layoutX="255.0" layoutY="370.0" onMouseClicked="#clickButt2" prefHeight="81.0" prefWidth="202.0" text="   condition" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="arcLab2" layoutX="319.0" layoutY="500.0" onMouseClicked="#clickAr1" prefHeight="47.0" prefWidth="64.0" text="  {" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="arccLab2" layoutX="222.0" layoutY="615.0" onMouseClicked="#clickAr3" prefHeight="50.0" prefWidth="32.0" text=" }" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="hintButt" fitHeight="267.0" fitWidth="239.0" layoutX="693.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/hint.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="770.0" prefWidth="1369.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.FillTheBlank2FXMLController">
+   <children>
+      <ImageView fitHeight="779.0" fitWidth="1377.0" layoutX="-8.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Pink%20Purple%20Pastel%20Cute%20Group%20Project%20Presentation%20(9).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="298.0" layoutX="445.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Pink%20Purple%20Pastel%20Cute%20Group%20Project%20Presentation%20(10).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="numButt3" fitHeight="125.0" fitWidth="238.0" layoutX="1024.0" layoutY="277.0" onMouseEntered="#recEn2" onMouseExited="#recEx2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonBlueLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="numButt" fitHeight="120.0" fitWidth="250.0" layoutX="1022.0" layoutY="158.0" onMouseEntered="#recEn1" onMouseExited="#recEx1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/ButtonBinkLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arcButt2" fitHeight="142.0" fitWidth="115.0" layoutX="1042.0" layoutY="604.0" onMouseEntered="#recEn6" onMouseExited="#recEx6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/ButtonBinkSmall.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="numButt2" fitHeight="120.0" fitWidth="250.0" layoutX="1028.0" layoutY="389.0" onMouseEntered="#recEn3" onMouseExited="#recEx3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonGreenLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arcButt3" fitHeight="136.0" fitWidth="113.0" layoutX="1149.0" layoutY="505.0" onMouseEntered="#recEn5" onMouseExited="#recEx5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonGreenSmall.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="572.0" fitWidth="831.0" layoutX="164.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Pink%20Purple%20Pastel%20Cute%20Group%20Project%20Presentation%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="401.0" fitWidth="804.0" layoutX="171.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/code2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="100.0" layoutX="260.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FillBlankLa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="35.0" layoutX="302.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FillBlankSm.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="numTex2" layoutX="1078.0" layoutY="395.0" prefHeight="81.0" prefWidth="191.0" text="The number">
+         <font>
+            <Font name="Cascadia Mono Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="numTex" layoutX="1045.0" layoutY="166.0" onMouseClicked="#clickNum" prefHeight="90.0" prefWidth="206.0" text="    number">
+         <font>
+            <Font name="Cascadia Mono Regular" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1076.0" layoutY="304.0" prefWidth="238.0" text="The number ">
+         <font>
+            <Font name="Cascadia Mono Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1195.0" layoutY="551.0" text="{">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="arrcLab2" layoutX="1057.0" layoutY="639.0" onMouseClicked="#clickArc2" prefHeight="72.0" prefWidth="88.0" text="  )">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="27.0" fitWidth="35.0" layoutX="442.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FillBlankSm.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="622.0" layoutX="282.0" layoutY="670.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/botton.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1066.0" layoutY="328.0" prefWidth="160.0" text="is positive">
+         <font>
+            <Font name="Cascadia Mono Regular" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="58.0" fitWidth="163.0" layoutX="419.0" layoutY="671.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/FillBlankLa.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="numText2" layoutX="1043.0" layoutY="415.0" onMouseClicked="#clickNum2" prefHeight="81.0" prefWidth="206.0" text="     is 0">
+         <font>
+            <Font name="Cascadia Mono Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="682.0" text="OUTPUT:">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="arcButt4" fitHeight="120.0" fitWidth="117.0" layoutX="1148.0" layoutY="618.0" onMouseEntered="#recEn7" onMouseExited="#recEx7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonBlueSmall.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1198.0" layoutY="658.0" text="}">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="arcButt1" fitHeight="120.0" fitWidth="117.0" layoutX="1040.0" layoutY="513.0" onMouseEntered="#recEn4" onMouseExited="#recEx4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BottonBlueSmall.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="arrcLab1" layoutX="1051.0" layoutY="515.0" onMouseClicked="#clickArc1" prefHeight="101.0" prefWidth="95.0" text="  (">
+         <font>
+            <Font name="Cascadia Mono Regular" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="bt1" fitHeight="47.0" fitWidth="95.0" layoutX="262.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/ButtonBinkLarge.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bt2" fitHeight="34.0" fitWidth="28.0" layoutX="303.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/BottonBlueSmall.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bt3" fitHeight="34.0" fitWidth="35.0" layoutX="444.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/ButtonBinkSmall.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="numTex1" layoutX="277.0" layoutY="418.0" prefHeight="15.0" prefWidth="88.0" text="number" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="arrow2" fitHeight="72.0" fitWidth="95.0" layoutX="1261.0" layoutY="687.0" onKeyPressed="#nextKey" onMouseClicked="#clickArrow1" onMouseEntered="#recEnArr2" onMouseExited="#recExArr2" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrow1" fitHeight="72.0" fitWidth="95.0" layoutX="15.0" layoutY="690.0" onMouseClicked="#clickArrow2" onMouseEntered="#recEnArr1" onMouseExited="#recExArr1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/arrowBa.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="arrc1" layoutX="311.0" layoutY="482.0" prefHeight="0.0" prefWidth="0.0" text="(" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="arrc2" layoutX="453.0" layoutY="482.0" text=")" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="bt4" fitHeight="70.0" fitWidth="130.0" layoutX="413.0" layoutY="667.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/BottonGreenLarge.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="numTe" layoutX="439.0" layoutY="687.0" text="The number " visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="numTe2" layoutX="457.0" layoutY="666.0" prefHeight="81.0" prefWidth="191.0" text="is 0" visible="false">
+         <font>
+            <Font name="Cascadia Mono Regular" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="lampButt" fitHeight="81.0" fitWidth="64.0" layoutX="887.0" layoutY="300.0" onMouseEntered="#recEnLam" onMouseExited="#recExLam" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/lamp.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hintButt" fitHeight="267.0" fitWidth="250.0" layoutX="701.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/hint.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="win" fitHeight="339.0" fitWidth="658.0" layoutX="385.0" layoutY="229.0" onKeyPressed="#nextKey" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../image/win.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="loon" fitHeight="155.0" fitWidth="60.0" layoutX="1295.0" layoutY="14.0" onMouseClicked="#clickArrow1" onMouseEntered="#recEnArr1" onMouseExited="#recExArr1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/balon.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1288.0" layoutY="526.0" mnemonicParsing="false" onKeyPressed="#nextKey" opacity="0.0" text="Button" />
+   </children>
+</Pane>

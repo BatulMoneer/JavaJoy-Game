@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="770.0" prefWidth="1369.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.HomeFXMLController">
+   <children>
+      <ImageView fitHeight="770.0" fitWidth="1369.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/First.jpeg" />
+         </image></ImageView>
+      <GridPane layoutX="304.0" layoutY="33.0" prefHeight="244.0" prefWidth="299.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.66668701171875" minWidth="10.0" prefWidth="98.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.0" minWidth="8.33331298828125" prefWidth="96.6666259765625" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="215.0" minWidth="10.0" prefWidth="109.3333740234375" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="117.66665649414062" minHeight="10.0" prefHeight="117.66665649414062" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="103.33331298828125" minHeight="10.0" prefHeight="103.33331298828125" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="aboutUs" alignment="CENTER" contentDisplay="TOP" graphicTextGap="0.0" onAction="#aboutUsClicked" onMouseEntered="#AboutUsEntered" onMouseExited="#AboutUsExited" prefHeight="54.0" prefWidth="58.0" style="-fx-background-color: transparent;" text="ABOUT US">
+               <GridPane.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="30.0" />
+               </GridPane.margin>
+               <graphic>
+                  <ImageView fx:id="aboutus" fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/AboutUsR.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="Bold Italic Art" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="2.0" left="2.0" />
+               </padding>
+            </Button>
+            <Button fx:id="settings" contentDisplay="TOP" graphicTextGap="0.0" onMouseEntered="#settingEntered" onMouseExited="#settingExited" style="-fx-background-color: transparent;" text="SETTINGS" textAlignment="CENTER" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fx:id="setting" fitHeight="45.0" fitWidth="45.0" onMouseEntered="#settingEntered" onMouseExited="#settingExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/SettingR.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+               </opaqueInsets>
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="15.0" right="5.0" top="45.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bold Italic Art" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="Account" contentDisplay="TOP" graphicTextGap="3.0" onAction="#accountClicked" onMouseEntered="#accountEntered" onMouseExited="#accountExited" style="-fx-background-color: transparent;" text="ACCOUNT" textAlignment="CENTER" GridPane.columnIndex="2">
+               <graphic>
+                  <ImageView fx:id="account" fitHeight="45.0" fitWidth="45.0" onMouseEntered="#accountEntered" onMouseExited="#accountExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/AccountR.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <GridPane.margin>
+                  <Insets left="20.0" right="10.0" top="15.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Bold Italic Art" size="12.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </Button>
+            <Button fx:id="Music" contentDisplay="TOP" graphicTextGap="0.0" onMouseClicked="#MuteMusic" onMouseEntered="#musicEntered" onMouseExited="#musicExited" style="-fx-background-color: transparent;" text="MUSIC" textAlignment="CENTER" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView fx:id="music" fitHeight="45.0" fitWidth="45.0" onMouseClicked="#MuteMusic" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/MusicR.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <GridPane.margin>
+                  <Insets left="20.0" top="45.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="Bold Italic Art" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="FeedBack" alignment="CENTER" contentDisplay="TOP" onAction="#feedBackClicked" onMouseEntered="#feedbackEntered" onMouseExited="#feedbackExited" style="-fx-background-color: transparent;" text="FEEDBACK" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView fx:id="feedback" fitHeight="46.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/FeedBackR.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <GridPane.margin>
+                  <Insets left="20.0" right="10.0" top="30.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="Bold Italic Art" size="12.0" />
+               </font>
+               <padding>
+                  <Insets top="13.0" />
+               </padding>
+            </Button>
+            <Button fx:id="JavaJoy" contentDisplay="TOP" onAction="#javajoyClicked" onMouseEntered="#javajoyEntered" onMouseExited="#javajoyExited" style="-fx-background-color: transparent;" text="JAVA JOY" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView fx:id="javajoy" fitHeight="41.0" fitWidth="60.0" onMouseEntered="#javajoyEntered" onMouseExited="#javajoyExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/javajoyR.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <GridPane.margin>
+                  <Insets left="20.0" top="5.0" />
+               </GridPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="10.0" top="10.0" />
+               </opaqueInsets>
+               <font>
+                  <Font name="Bold Italic Art" size="12.0" />
+               </font>
+               <padding>
+                  <Insets top="44.0" />
+               </padding>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</Pane>

@@ -1,0 +1,27 @@
+/* Define the custom scroll pane style */
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+/* Customize the vertical scrollbar track */
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-shape: "M0,0 L1,0 L1,1 L0,1 Z";
+}
+
+
+/* Customize the vertical scrollbar thumb */
+.scroll-bar:vertical .thumb {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-shape: "M0,0 L1,0 L1,1 L0,1 Z";
+   
+}
+
+

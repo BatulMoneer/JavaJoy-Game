@@ -1,0 +1,5 @@
+We are a group of 6 students who decided to
+make a simple java game using JavaFX to
+help people who want to recover their 
+information in a fun way!
+The Game will contain:

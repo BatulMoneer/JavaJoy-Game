@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="770" prefWidth="1369" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start.AccountFXMLController">
+    <children>
+      <ImageView fitHeight="770.0" fitWidth="1405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/account.jpeg" />
+         </image>
+      </ImageView>
+      <Text fx:id="text1" layoutX="654.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="245.6708984375" />
+      <Text fx:id="text2" layoutX="654.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="245.6708984375" />
+      <Text fx:id="text3" layoutX="654.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="245.67089238762856" />
+      <Button fx:id="home" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#goHome" opacity="0.0" prefHeight="63.0" prefWidth="66.0" />
+      <Button layoutX="942.0" layoutY="608.0" mnemonicParsing="false" onAction="#textbinding" prefHeight="57.0" prefWidth="122.0" styleClass="done-button" stylesheets="@newCascadeStyleSheet.css" text="Show" textFill="WHITE">
+         <font>
+            <Font name="Cascadia Mono Regular" size="21.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
